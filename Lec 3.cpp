@@ -1,11 +1,13 @@
 #include <iostream>
 using namespace std;
 
-class MyClass {       
+class MyClass { 
+      
   public:        
     int Rollno;  
     string Regno;
     string Tsub;
+    
     
     MyClass( ){
     	Rollno = 10;
@@ -18,6 +20,7 @@ class MyClass {
 		Regno = g;
 		Tsub = t;
 	}
+	
 };
 
 int main() {
